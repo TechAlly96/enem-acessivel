@@ -46,3 +46,10 @@ sprint-004: feat(curso) - (06/11/2026) módulo 12 "Funções da linguagem, figur
 abertura + 8 aulas (elementos da comunicação, as seis funções, figuras de comparação, de intensidade e
 oposição, de som e repetição, coesão por retomada, conectivos), ligadas às questões resolvidas de 2023 e 2024.
 FIM-sprint-004
+
+sprint-005: feat(curso) - (06/11/2026) PRIORIDADE: módulos do 1º dia antes da prova de 08/11.
+Módulo 26 "Filosofia": abertura + 8 aulas em linha do tempo (pré-socráticos e sofistas; Sócrates e Platão;
+Aristóteles; fé e razão na Idade Média; racionalistas e empiristas; Maquiavel, contratualistas e Iluminismo;
+Kant; contemporâneos: Marx, Nietzsche, Sartre, Beauvoir, Arendt, Adorno e Horkheimer, Foucault),
+com "palavras-chave" de cada filósofo e ligação com as questões de 2023 e 2024.
+FIM-sprint-005

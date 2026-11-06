@@ -24,7 +24,7 @@ Padrão de cada módulo (`conteudo/NN_curso_*.md`):
 | 23 | História Geral: da Antiguidade à Guerra Fria | a fazer |
 | 24 | Geografia física: cartografia, relevo, clima, biomas e água | a fazer |
 | 25 | Geografia humana: população, cidades, campo, indústria e globalização | a fazer |
-| 26 | Filosofia | a fazer |
+| 26 | Filosofia | pronto |
 | 27 | Sociologia | a fazer |
 | 31 | Física 1: movimento e forças | a fazer |
 | 32 | Física 2: energia, calor, ondas e luz | a fazer |
