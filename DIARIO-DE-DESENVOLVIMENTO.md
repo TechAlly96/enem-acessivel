@@ -53,3 +53,9 @@ Aristóteles; fé e razão na Idade Média; racionalistas e empiristas; Maquiave
 Kant; contemporâneos: Marx, Nietzsche, Sartre, Beauvoir, Arendt, Adorno e Horkheimer, Foucault),
 com "palavras-chave" de cada filósofo e ligação com as questões de 2023 e 2024.
 FIM-sprint-005
+
+sprint-006: feat(curso) - (06/11/2026) módulo 27 "Sociologia": abertura + 8 aulas (Durkheim, Weber e Marx;
+cultura, etnocentrismo e patrimônio; estratificação e desigualdade; racismo estrutural e leis; gênero e família;
+trabalho: taylorismo, fordismo, toyotismo e uberização; cidadania, direitos e movimentos sociais; globalização,
+Bauman, Hall, Castells e fake news), com ligação às questões de 2023 e 2024 e dica de repertório para a redação.
+FIM-sprint-006
