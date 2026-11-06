@@ -144,3 +144,10 @@ sprint-018: feat(curso) - (06/11/2026)
 - 43 "Matemática 3: equações e funções": 8 aulas (equação como balança; montar equações; sistemas; função;
   primeiro grau; segundo grau e vértice; exponencial; logaritmo e leitura de gráficos).
 FIM-sprint-018
+
+sprint-019: feat(curso) - (06/11/2026) geometria com orientação tátil (objetos reais para sentir as formas).
+- 44 "Geometria plana": 8 aulas (ângulos; triângulos e semelhança; Pitágoras; trigonometria SOH CAH TOA;
+  quadriláteros e polígonos; perímetro e área; círculo e pi; escala, simetria e plano cartesiano).
+- 45 "Geometria espacial": 7 aulas (sólidos, faces, arestas, vértices e planificação; prismas e cubo; cilindro;
+  pirâmides e cones, um terço; esfera; área de superfície e embalagens; vistas e semelhança no espaço).
+FIM-sprint-019

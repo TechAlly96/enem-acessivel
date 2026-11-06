@@ -38,8 +38,8 @@ Padrão de cada módulo (`conteudo/NN_curso_*.md`):
 | 41 | Matemática 1: números, operações, frações e potências | pronto |
 | 42 | Matemática 2: razão, proporção, porcentagem e juros | pronto |
 | 43 | Matemática 3: equações e funções | pronto |
-| 44 | Matemática 4: geometria plana | a fazer |
-| 45 | Matemática 5: geometria espacial | a fazer |
+| 44 | Matemática 4: geometria plana | pronto |
+| 45 | Matemática 5: geometria espacial | pronto |
 | 46 | Matemática 6: estatística e probabilidade | a fazer |
 | 47 | Matemática 7: contagem, sequências, logaritmo e trigonometria | a fazer |
 | 51 | Redação do zero à nota mil | pronto |
