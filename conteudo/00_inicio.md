@@ -1,59 +1,59 @@
-# Treinamento Completo para o Enem. Apostila para ouvir
+# Apresentação e como estudar
 
-## Olá. Vamos começar
+## Olá, eu sou o Marlon
 
-Esta apostila foi feita para você ouvir no fone de ouvido, no celular, como se alguém estivesse sentado do seu lado explicando tudo com calma.
+Olá! Eu sou Marlon Myaggy, desenvolvedor Full Stack.
 
-Ela foi montada a partir das provas que você enviou: o primeiro e o segundo dia do Enem de 2023, e o primeiro dia do Enem de 2024. São 270 questões. Cada uma tem quatro partes.
+Ao concluir o curso de Análise e Desenvolvimento de Sistemas, percebi que poderia usar o que aprendi para contribuir com a comunidade. Foi assim que nasceu este curso inclusivo.
 
-Primeiro, **a história**: eu conto o que a questão diz, com palavras simples. Quando a questão tem desenho, gráfico ou tabela, eu descrevo o que aparece na imagem.
+Acredito que é pela educação que todas as pessoas podem transformar a própria vida. Espero que este curso seja a chave que vai abrir as portas do sucesso ao longo da sua caminhada.
 
-Segundo, **a teoria**: a ideia que você precisa saber para resolver.
+Bons estudos!
 
-Terceiro, **o passo a passo**: a resolução devagar, um degrau de cada vez.
+## A ideia deste aplicativo
 
-Quarto, **a resposta e uma dica**: a letra certa, conferida no gabarito oficial do Inep, e um truque para levar para a prova.
+O Enem Acessível é um curso preparatório para o Enem feito para ser **ouvido**. Ele foi pensado primeiro para quem tem deficiência visual, mas serve para qualquer pessoa que goste de aprender ouvindo: no ônibus, caminhando, ou deitado com a tela apagada.
 
-## Como ouvir esta apostila
+Tudo aqui é **gratuito** e de **código aberto**. Não tem propaganda, não pede cadastro e não cobra nada. O código fica disponível para qualquer pessoa estudar, copiar e melhorar.
 
-Use o leitor de voz do seu celular. No Android, o recurso se chama "Selecionar para ouvir" ou "TalkBack"; muitos leitores de PDF também têm um botão de "ler em voz alta". No iPhone, o recurso se chama "Falar Tela" e fica nas opções de Acessibilidade.
+Você vai encontrar três tipos de conteúdo.
 
-Se a voz estiver rápida demais, diminua a velocidade. Matemática se ouve devagar.
+Primeiro, o **curso completo**, que ensina do zero todas as áreas do Enem: Linguagens, Ciências Humanas, Ciências da Natureza, Matemática e Redação. São 29 módulos, com mais de 200 aulas curtas. Cada aula termina com um exercício rápido para você responder em voz alta.
 
-A apostila está dividida em partes. Você pode ouvir em qualquer ordem, mas eu sugiro esta:
+Segundo, as **provas resolvidas**: questões reais do Enem de 2023 e de 2024, explicadas uma por uma. Em cada questão, eu conto a história do enunciado com palavras simples, descrevo as imagens e os gráficos, explico a teoria, resolvo passo a passo e digo a resposta, conferida no gabarito oficial do Inep.
 
-**Hoje e amanhã:** comece pela Parte 7, com as estratégias de prova e a redação. Ela vale muito ponto e é a mesma para todo mundo.
+Terceiro, as partes de **estratégia**: como fazer a prova, como escrever a redação e um resumo para ouvir na véspera.
 
-**Depois:** Linguagens e Humanas, Partes 1, 2, 5 e 6. Elas caem no primeiro dia.
+A ideia é que o aplicativo continue crescendo: a cada ano, novas provas resolvidas serão acrescentadas.
 
-**Por último:** Natureza e Matemática, Partes 3 e 4. Elas caem no segundo dia, então você ainda terá mais uma semana para reouvir.
+## Como usar o aplicativo
 
-E na noite antes de cada prova, ouça a Parte 8, o resumo de véspera.
+Na tela inicial, toque em uma parte para abri-la.
 
-## O mapa da apostila
+Dentro da parte, o botão **Ouvir a parte toda** toca tudo do começo ao fim. Se preferir, escolha um capítulo da lista e toque em **Ouvir** só nele. Cada capítulo também tem a opção **Ler o texto**, para quem prefere ler ou usar o leitor de tela.
 
-Parte 1: Linguagens, prova de 2023.
+Enquanto o áudio toca, aparecem os botões do tocador: capítulo anterior, voltar 15 segundos, tocar ou pausar, avançar 15 segundos e próximo capítulo. Também dá para mudar a **velocidade**. Matemática se ouve devagar; revisão pode ser mais rápida.
 
-Parte 2: Ciências Humanas, prova de 2023.
+O áudio **continua tocando com a tela apagada** e com o aplicativo em segundo plano. Você pode pausar e trocar de capítulo pela tela de bloqueio ou pelos botões do fone de ouvido.
 
-Parte 3: Ciências da Natureza, prova de 2023.
+O aplicativo lembra onde você parou. Na tela inicial, o botão **Continuar de onde parei** volta exatamente para esse ponto.
 
-Parte 4: Matemática, prova de 2023.
+Para ouvir **sem internet**, abra uma parte e toque em **Baixar para ouvir sem internet**. De preferência, faça isso no Wi-Fi.
 
-Parte 5: Linguagens, prova de 2024.
+E, para ter o aplicativo na tela do celular como qualquer outro, use a opção **Instalar aplicativo** ou **Adicionar à tela inicial**, no menu do navegador.
 
-Parte 6: Ciências Humanas, prova de 2024.
+## Por onde começar
 
-Parte 7: Estratégia de prova e redação nota mil.
+Se você tem tempo, comece pelo **curso completo**, na ordem. Ele ensina a base que as questões cobram.
 
-Parte 8: Resumo de véspera, com as fórmulas e ideias que mais caem.
+Se a prova está perto, faça assim. Primeiro, ouça **Estratégia e redação**: ela vale muitos pontos e serve para todo mundo. Depois, ouça as provas resolvidas do dia que vem primeiro. E, quando encontrar um assunto difícil, volte ao módulo do curso que explica esse assunto.
 
-Uma observação honesta: dos arquivos de 2024, só veio a prova do primeiro dia. Do segundo dia de 2024 vieram apenas os gabaritos, sem as questões. Por isso, Natureza e Matemática ficaram só com a prova de 2023. As 90 questões dela cobrem quase todos os assuntos que mais caem.
+Na noite antes de cada prova, ouça o **Resumo de véspera**, com as fórmulas e as ideias que mais caem.
 
 ## Uma palavra antes de tudo
 
-Nota máxima no Enem é muito difícil. Mas nota alta é totalmente possível, e o caminho é este: entender as ideias, não decorar respostas. O Enem repete os mesmos tipos de raciocínio todo ano. Você vai perceber isso ao ouvir: saúde mental no esporte em 2023 e em 2024, indústria cultural em 2023 e em 2024, variação linguística nos dois anos, alma e corpo nos dois anos.
+Nota alta no Enem é totalmente possível, e o caminho é este: entender as ideias, não decorar respostas. O Enem repete os mesmos tipos de raciocínio todo ano. Você vai perceber isso ao ouvir: saúde mental no esporte em 2023 e em 2024, indústria cultural nos dois anos, variação linguística nos dois anos.
 
-Então, quando você entender uma questão, você está, na verdade, aprendendo a resolver várias.
+Então, quando você entende uma questão, na verdade está aprendendo a resolver várias.
 
 Vamos lá.

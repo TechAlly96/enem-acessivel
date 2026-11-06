@@ -6,6 +6,7 @@ const CACHE_AUDIO = "enem-audio-v1";
 const CACHE_DADOS = "enem-dados-v1";
 const VELOCIDADES = [0.75, 1, 1.25, 1.5, 1.75];
 const GRUPOS = [["geral", "Comece por aqui"], ["curso", "Curso completo: aprenda do zero"], ["dia1", "Primeiro dia: Linguagens, Humanas e Redação"], ["dia2", "Segundo dia: Natureza e Matemática"]];
+const AREAS = { "1": "Linguagens", "2": "Ciências Humanas", "3": "Ciências da Natureza", "4": "Matemática", "5": "Redação" };
 const $ = (id) => document.getElementById(id);
 
 let partes = [];
@@ -63,7 +64,7 @@ function preparar(titulo, comVoltar) {
 
 function telaInicio() {
   const main = preparar("Enem Acessível", false);
-  main.append(el("p", "aviso", "Explicações das provas do Enem em áudio, em linguagem simples. Toque em uma parte para escolher a questão, ou em \"Ouvir a parte toda\". O áudio continua com a tela apagada."));
+  main.append(el("p", "aviso", "Curso completo e provas do Enem resolvidas, tudo em áudio e em linguagem simples. Toque em uma parte para escolher a aula ou a questão, ou em \"Ouvir a parte toda\". O áudio continua com a tela apagada."));
   const prog = recuperar("enem-progresso", null);
   const parteSalva = prog && partes.find((p) => p.id === prog.parte);
   if (parteSalva) {
@@ -77,7 +78,10 @@ function telaInicio() {
     const lista = partes.filter((p) => p.dia === grupo);
     if (!lista.length) continue;
     main.append(el("h2", null, nome));
+    let areaAtual = null;
     for (const p of lista) {
+      const area = grupo === "curso" ? AREAS[p.id[0]] : null;
+      if (area && area !== areaAtual) { main.append(el("h3", "area", area)); areaAtual = area; }
       const b = el("button", "botao");
       b.type = "button";
       const detalhes = [p.aulas ? p.aulas + " aulas" : p.questoes ? p.questoes + " questões resolvidas" : p.capitulos + " tópicos"];
@@ -96,7 +100,7 @@ function telaInicio() {
   t.append(menor, maior);
   main.append(t);
   const rod = el("p", "rodape");
-  rod.innerHTML = 'Projeto gratuito e de código aberto. Respostas conferidas no gabarito oficial do Inep. <a href="https://github.com/TechAlly96/enem-acessivel" rel="noopener">Código-fonte no GitHub</a>.';
+  rod.innerHTML = 'Criado por Marlon Myaggy. Projeto gratuito e de código aberto. Respostas conferidas no gabarito oficial do Inep. <a href="https://github.com/TechAlly96/enem-acessivel" rel="noopener">Código-fonte no GitHub</a>.';
   main.append(rod);
 }
 

@@ -159,3 +159,11 @@ sprint-020: feat(curso) - (06/11/2026) CURSO COMPLETO: 29 de 29 módulos.
   permutação, arranjo e combinação; sequências; PA e soma de Gauss; PG; logaritmo; ciclo trigonométrico e periódicos).
 Totais do curso: 29 módulos, cerca de 230 aulas, além das 280 questões resolvidas.
 FIM-sprint-020
+
+sprint-021: feat(app) - (06/11/2026) apresentação do autor e organização visual.
+- 00_inicio reescrito para o app: apresentação de Marlon Myaggy, ideia do aplicativo, como usar
+  (tocador, tela apagada, continuar, baixar sem internet, instalar) e por onde começar.
+- Tela inicial: subtítulos por área no curso (Linguagens, Humanas, Natureza, Matemática, Redação),
+  texto de abertura citando o curso e crédito "Criado por Marlon Myaggy" no rodapé.
+- sw.js: cache da casca enem-app-v2.
+FIM-sprint-021
