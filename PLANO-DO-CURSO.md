@@ -16,8 +16,8 @@ Padrão de cada módulo (`conteudo/NN_curso_*.md`):
 |---|---|---|
 | 11 | Ler e entender qualquer texto | pronto |
 | 12 | Funções da linguagem, figuras de linguagem e coesão | pronto |
-| 13 | Variação linguística, gramática que cai e sentido das palavras | a fazer |
-| 14 | Literatura brasileira: das primeiras crônicas aos dias de hoje | a fazer |
+| 13 | Variação linguística, gramática que cai e sentido das palavras | pronto |
+| 14 | Literatura brasileira: das primeiras crônicas aos dias de hoje | pronto |
 | 15 | Artes, Educação Física, tecnologias e língua estrangeira | a fazer |
 | 21 | História do Brasil: Colônia e Império | pronto |
 | 22 | História do Brasil: República | pronto |

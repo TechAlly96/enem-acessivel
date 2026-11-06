@@ -90,3 +90,12 @@ sprint-011: feat(curso) - (06/11/2026) módulos 24 e 25 de Geografia — CIÊNCI
 - 25 "Geografia humana": 8 aulas (população e transição demográfica, Censo 2022; migrações; urbanização;
   espaço agrário; indústria e energia; transportes e redes; globalização e blocos; geopolítica e conflitos).
 FIM-sprint-011
+
+sprint-012: feat(curso) - (06/11/2026) módulos 13 e 14 de Linguagens.
+- 13 "Variação linguística, gramática que cai e sentido das palavras": 7 aulas (variação; tipos; preconceito
+  linguístico; norma-padrão e adequação; concordância, crase, porquês, mas/mais, há/a; denotação, polissemia,
+  ambiguidade e estrangeirismos; linguagem verbal, não verbal e multimodal).
+- 14 "Literatura brasileira": 9 aulas (Quinhentismo e Barroco; Arcadismo; Romantismo; Realismo e Naturalismo;
+  Parnasianismo, Simbolismo e Pré-Modernismo; Modernismo 1ª e 2ª fases; de Guimarães Rosa a Conceição Evaristo;
+  como responder questões). Citações só de obras em domínio público (antes de 1929).
+FIM-sprint-012
