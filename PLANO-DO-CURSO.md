@@ -26,8 +26,8 @@ Padrão de cada módulo (`conteudo/NN_curso_*.md`):
 | 25 | Geografia humana: população, cidades, campo, indústria e globalização | pronto |
 | 26 | Filosofia | pronto |
 | 27 | Sociologia | pronto |
-| 31 | Física 1: movimento e forças | a fazer |
-| 32 | Física 2: energia, calor, ondas e luz | a fazer |
+| 31 | Física 1: movimento e forças | pronto |
+| 32 | Física 2: energia, calor, ondas e luz | pronto |
 | 33 | Física 3: eletricidade e magnetismo | a fazer |
 | 34 | Química 1: matéria, átomos, tabela periódica e ligações | a fazer |
 | 35 | Química 2: reações, cálculos, soluções e pH | a fazer |

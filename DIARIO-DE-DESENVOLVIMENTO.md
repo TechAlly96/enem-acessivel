@@ -105,3 +105,10 @@ sprint-013: feat(curso) - (06/11/2026) módulo 15 "Artes, Educação Física, te
 com goalball e futebol de cegos; TICs, fake news e acessibilidade digital; inglês e falsos cognatos; espanhol e
 falsos amigos). MARCO: todos os módulos do 1º DIA prontos (Linguagens 11-15, Humanas 21-27, Redação 51).
 FIM-sprint-013
+
+sprint-014: feat(curso) - (06/11/2026) início de Ciências da Natureza (2º dia, 15/11).
+- 31 "Física 1: movimento e forças": 7 aulas (velocidade e eco; aceleração e queda livre; inércia; 2ª e 3ª leis,
+  massa e peso; atrito e movimento circular; alavancas, polias e plano inclinado; pressão e empuxo).
+- 32 "Física 2: energia, calor, ondas e luz": 8 aulas (formas e conservação da energia; potência, kWh e rendimento;
+  temperatura e calor; calor sensível e latente, gases; ondas; som; luz, cores e lentes; espectro e radiação).
+FIM-sprint-014
