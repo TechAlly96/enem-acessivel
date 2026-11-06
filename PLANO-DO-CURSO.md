@@ -42,6 +42,6 @@ Padrão de cada módulo (`conteudo/NN_curso_*.md`):
 | 45 | Matemática 5: geometria espacial | a fazer |
 | 46 | Matemática 6: estatística e probabilidade | a fazer |
 | 47 | Matemática 7: contagem, sequências, logaritmo e trigonometria | a fazer |
-| 51 | Redação do zero à nota mil | a fazer (hoje: parte 07) |
+| 51 | Redação do zero à nota mil | pronto |
 
 Revisão: cada módulo novo passa pela conferência automática (gerador) e por leitura humana antes de publicar.

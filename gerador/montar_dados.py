@@ -113,7 +113,7 @@ def main(saida):
         titulo, caps = ler_parte(arquivo)
         if pid in INFO:
             dia, curto = INFO[pid]
-        elif pid[:1] in "1234":  # modulos do curso completo: 1x Linguagens, 2x Humanas, 3x Natureza, 4x Matematica
+        elif pid[:1] in "12345":  # curso completo: 1x Linguagens, 2x Humanas, 3x Natureza, 4x Matematica, 5x Redacao
             dia, curto = "curso", re.sub(r"^Curso, m[óo]dulo \d+\.\s*", "", titulo)
         else:
             dia, curto = "geral", titulo

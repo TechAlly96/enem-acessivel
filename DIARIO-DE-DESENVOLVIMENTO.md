@@ -59,3 +59,10 @@ cultura, etnocentrismo e patrimônio; estratificação e desigualdade; racismo e
 trabalho: taylorismo, fordismo, toyotismo e uberização; cidadania, direitos e movimentos sociais; globalização,
 Bauman, Hall, Castells e fake news), com ligação às questões de 2023 e 2024 e dica de repertório para a redação.
 FIM-sprint-006
+
+sprint-007: feat(curso) - (06/11/2026) módulo 51 "Redação do zero à nota mil": abertura + 9 aulas (o que o Enem pede
+e nota zero; as cinco competências; ler o tema sem tangenciar, com os temas de 2017 a 2025 — 2025 conferido:
+"Perspectivas acerca do envelhecimento na sociedade brasileira"; tese; introdução; desenvolvimento; proposta com
+os 5 elementos; repertórios por assunto; revisão e erros comuns). Menção ao atendimento especializado do Inep.
+- montar_dados.py: módulos 5x (Redação) também entram no grupo "curso".
+FIM-sprint-007
