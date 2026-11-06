@@ -151,3 +151,11 @@ sprint-019: feat(curso) - (06/11/2026) geometria com orientação tátil (objeto
 - 45 "Geometria espacial": 7 aulas (sólidos, faces, arestas, vértices e planificação; prismas e cubo; cilindro;
   pirâmides e cones, um terço; esfera; área de superfície e embalagens; vistas e semelhança no espaço).
 FIM-sprint-019
+
+sprint-020: feat(curso) - (06/11/2026) CURSO COMPLETO: 29 de 29 módulos.
+- 46 "Estatística e probabilidade": 8 aulas (gráficos; média e ponderada; mediana e moda; amplitude e desvio padrão;
+  probabilidade; eventos combinados; aplicações; amostra, margem de erro e correlação x causa).
+- 47 "Contagem, sequências, logaritmo e trigonometria": 7 aulas + encerramento do curso (princípio multiplicativo;
+  permutação, arranjo e combinação; sequências; PA e soma de Gauss; PG; logaritmo; ciclo trigonométrico e periódicos).
+Totais do curso: 29 módulos, cerca de 230 aulas, além das 280 questões resolvidas.
+FIM-sprint-020
