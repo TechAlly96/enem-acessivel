@@ -72,3 +72,8 @@ sprint-008: feat(curso) - (06/11/2026) módulo 21 "História do Brasil: Colônia
 Palmares; ouro e Minas; Inconfidência e Conjuração Baiana; família real e Independência; Primeiro Reinado, regências
 e Segundo Reinado; abolição e Proclamação da República), ligado às questões de 2023 e 2024.
 FIM-sprint-008
+
+sprint-009: feat(curso) - (06/11/2026) módulo 22 "História do Brasil: República": abertura + 8 aulas (Primeira República
+e coronelismo; revoltas: Canudos, Contestado, Vacina, Chibata, tenentismo, Semana de 22; Era Vargas; 1946-1964;
+ditadura militar e AI-5; abertura e Diretas Já; Constituição de 1988 e Nova República; temas transversais).
+FIM-sprint-009
