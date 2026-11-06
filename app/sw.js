@@ -2,7 +2,7 @@
 // Enem Acessivel - service worker (mesmo desenho do GIN):
 // rede primeiro para o app e os dados; audio baixado fica guardado e e entregue em pedacos
 // (Range) para permitir pular entre questoes sem internet.
-const CACHE_APP = "enem-app-v2";
+const CACHE_APP = "enem-app-v3";
 const CACHE_AUDIO = "enem-audio-v1";
 const CACHE_DADOS = "enem-dados-v1";
 const CASCA = ["./", "./index.html", "./app.js", "./estilo.css", "./manifest.json",

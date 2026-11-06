@@ -167,3 +167,19 @@ sprint-021: feat(app) - (06/11/2026) apresentação do autor e organização vis
   texto de abertura citando o curso e crédito "Criado por Marlon Myaggy" no rodapé.
 - sw.js: cache da casca enem-app-v2.
 FIM-sprint-021
+
+sprint-022: feat(app) - (06/11/2026) MODO GUIADO: o curso toca sozinho, como um cão-guia.
+- Pedido do usuário: o aluno com limitação visual só coloca o fone e ouve; nada de parar ao fim de cada parte.
+- Ao terminar uma parte, o app segue sozinho para a próxima, na ordem: apresentação, curso completo (11 a 51),
+  estratégia e redação, provas do dia 1, provas do dia 2, resumo de véspera; depois da última, recomeça do início.
+- Botão "próximo" no último capítulo (inclusive na tela de bloqueio e no fone) avança para a parte seguinte;
+  "anterior" no começo de uma parte volta para a parte anterior.
+- Dados da próxima parte são baixados 2 minutos antes do fim (troca imediata com a tela apagada); se a troca
+  falhar (sem internet), tenta de novo após 8 s.
+- Tela inicial: "Começar o curso guiado" (primeiro uso), "Continuar de onde parei" + "Recomeçar do início".
+- Gerador: o primeiro capítulo de cada parte anuncia o nome da parte ("Curso, módulo 12. ..."), para o aluno
+  saber onde está quando a troca acontece sozinha (renarra só os primeiros capítulos; o resto vem do cache).
+- 00_inicio: "Como usar o aplicativo" explica o modo guiado.
+- Teste no Chromium com áudios de 2 s: 46 trocas seguidas, as 38 partes na ordem, volta ao início e retomada OK.
+- sw.js: enem-app-v3.
+FIM-sprint-022

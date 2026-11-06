@@ -28,15 +28,19 @@ A ideia é que o aplicativo continue crescendo: a cada ano, novas provas resolvi
 
 ## Como usar o aplicativo
 
-Na tela inicial, toque em uma parte para abri-la.
+O jeito mais fácil é este: coloque o fone e, na tela inicial, toque em **Começar o curso guiado**. Depois, é só ouvir.
 
-Dentro da parte, o botão **Ouvir a parte toda** toca tudo do começo ao fim. Se preferir, escolha um capítulo da lista e toque em **Ouvir** só nele. Cada capítulo também tem a opção **Ler o texto**, para quem prefere ler ou usar o leitor de tela.
+O aplicativo funciona como um guia. Quando uma parte termina, ele passa sozinho para a próxima, na ordem certa: primeiro esta apresentação, depois o curso completo, com todas as áreas, depois a estratégia de prova e a redação, as provas resolvidas e, por último, o resumo de véspera. Quando tudo termina, ele recomeça do início, para você ouvir de novo e fixar ainda mais. Você não precisa tocar na tela em nenhum momento.
 
-Enquanto o áudio toca, aparecem os botões do tocador: capítulo anterior, voltar 15 segundos, tocar ou pausar, avançar 15 segundos e próximo capítulo. Também dá para mudar a **velocidade**. Matemática se ouve devagar; revisão pode ser mais rápida.
+Se quiser escolher um assunto específico, toque em uma parte da lista para abri-la.
+
+Dentro da parte, o botão **Ouvir a parte toda** toca tudo do começo ao fim e depois segue para a parte seguinte. Se preferir, escolha um capítulo da lista e toque em **Ouvir** só nele. Cada capítulo também tem a opção **Ler o texto**, para quem prefere ler ou usar o leitor de tela.
+
+Enquanto o áudio toca, aparecem os botões do tocador: capítulo anterior, voltar 15 segundos, tocar ou pausar, avançar 15 segundos e próximo capítulo. No último capítulo de uma parte, o botão de próximo leva para a parte seguinte. Também dá para mudar a **velocidade**. Matemática se ouve devagar; revisão pode ser mais rápida.
 
 O áudio **continua tocando com a tela apagada** e com o aplicativo em segundo plano. Você pode pausar e trocar de capítulo pela tela de bloqueio ou pelos botões do fone de ouvido.
 
-O aplicativo lembra onde você parou. Na tela inicial, o botão **Continuar de onde parei** volta exatamente para esse ponto.
+Para parar, basta pausar. O aplicativo lembra onde você parou, e na tela inicial o botão **Continuar de onde parei** volta exatamente para esse ponto e segue em sequência. Também há o botão **Recomeçar do início**.
 
 Para ouvir **sem internet**, abra uma parte e toque em **Baixar para ouvir sem internet**. De preferência, faça isso no Wi-Fi.
 
@@ -44,7 +48,7 @@ E, para ter o aplicativo na tela do celular como qualquer outro, use a opção *
 
 ## Por onde começar
 
-Se você tem tempo, comece pelo **curso completo**, na ordem. Ele ensina a base que as questões cobram.
+Se você tem tempo, siga o **curso guiado** desde o começo. Ele ensina primeiro a base e depois mostra como ela aparece nas questões da prova.
 
 Se a prova está perto, faça assim. Primeiro, ouça **Estratégia e redação**: ela vale muitos pontos e serve para todo mundo. Depois, ouça as provas resolvidas do dia que vem primeiro. E, quando encontrar um assunto difícil, volte ao módulo do curso que explica esse assunto.
 

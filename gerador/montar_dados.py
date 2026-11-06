@@ -101,6 +101,11 @@ def ler_parte(arquivo):
         else:
             corpo.append(linha)
     fechar()
+    # Anuncio da parte no inicio do audio: no modo guiado o app passa sozinho
+    # de uma parte para a outra, e o aluno precisa ouvir onde esta.
+    if caps:
+        anuncio = titulo_parte if titulo_parte.endswith((".", "!", "?")) else titulo_parte + "."
+        caps[0]["fala"] = anuncio + " " + caps[0]["fala"]
     return titulo_parte, caps
 
 

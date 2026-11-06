@@ -64,15 +64,26 @@ function preparar(titulo, comVoltar) {
 
 function telaInicio() {
   const main = preparar("Enem Acessível", false);
-  main.append(el("p", "aviso", "Curso completo e provas do Enem resolvidas, tudo em áudio e em linguagem simples. Toque em uma parte para escolher a aula ou a questão, ou em \"Ouvir a parte toda\". O áudio continua com a tela apagada."));
+  main.append(el("p", "aviso", "Curso completo e provas do Enem resolvidas, tudo em áudio e em linguagem simples. Coloque o fone e toque no botão abaixo: as aulas tocam uma depois da outra, até o fim do curso, e depois recomeçam. Funciona com a tela apagada. Se preferir, escolha uma parte na lista."));
   const prog = recuperar("enem-progresso", null);
   const parteSalva = prog && partes.find((p) => p.id === prog.parte);
+  const inicio = sequencia()[0];
+  const b = el("button", "botao forte");
+  b.type = "button";
   if (parteSalva) {
-    const b = el("button", "botao forte");
-    b.type = "button";
     b.append(el("strong", null, "▶ Continuar de onde parei"), el("span", null, parteSalva.curto + (prog.titulo ? " · " + prog.titulo : "")));
     b.addEventListener("click", () => tocarParte(prog.parte, null, prog.tempo));
-    main.append(b);
+  } else {
+    b.append(el("strong", null, "▶ Começar o curso guiado"), el("span", null, "Toque uma vez e só ouça: tudo toca em sequência"));
+    b.addEventListener("click", () => tocarParte(inicio, 0));
+  }
+  main.append(b);
+  if (parteSalva) {
+    const r = el("button", "botao");
+    r.type = "button";
+    r.append(el("strong", null, "↺ Recomeçar do início"), el("span", null, "Volta para a apresentação e segue em sequência"));
+    r.addEventListener("click", () => tocarParte(inicio, 0));
+    main.append(r);
   }
   for (const [grupo, nome] of GRUPOS) {
     const lista = partes.filter((p) => p.dia === grupo);
@@ -116,7 +127,7 @@ async function telaParte(id) {
   const acoes = el("div", "acoes");
   const tudo = el("button", "botao forte");
   tudo.type = "button";
-  tudo.append(el("strong", null, "▶ Ouvir a parte toda"), el("span", null, audio ? minutos(audio.duracao) + ", do começo ao fim" : "leitura pela voz do celular"));
+  tudo.append(el("strong", null, "▶ Ouvir a parte toda"), el("span", null, (audio ? minutos(audio.duracao) : "leitura pela voz do celular") + ", e segue sozinho para a próxima parte"));
   tudo.addEventListener("click", () => tocarParte(id, 0));
   acoes.append(tudo);
   if (audio && "caches" in window) {
@@ -177,6 +188,31 @@ async function baixarParte(id) {
   await dados.addAll([DADOS + "partes.json", DADOS + id + "/conteudo.json", DADOS + id + "/audio.json"]);
 }
 
+// ---------- modo guiado: tudo em sequencia, como um cao-guia ----------
+// Ordem: apresentacao -> curso completo (todas as areas) -> estrategia e redacao
+// -> provas do primeiro dia -> provas do segundo dia -> resumo de vespera -> recomeca.
+function sequencia() {
+  const ordem = (p) => p.id === "00_inicio" ? 0 : p.dia === "curso" ? 1 : p.id.startsWith("07") ? 2 : p.dia === "dia1" ? 3 : p.dia === "dia2" ? 4 : 5;
+  return partes.slice().sort((a, b) => ordem(a) - ordem(b) || a.id.localeCompare(b.id)).map((p) => p.id);
+}
+function vizinha(id, passo) {
+  const seq = sequencia();
+  const i = seq.indexOf(id);
+  return seq[((i < 0 ? 0 : i) + passo + seq.length) % seq.length];
+}
+async function avancarParte() {
+  const seq = sequencia();
+  const fimDoCurso = seq.indexOf(player.parte) === seq.length - 1;
+  const prox = vizinha(player.parte, 1);
+  const info = partes.find((p) => p.id === prox);
+  anunciar(fimDoCurso ? "Fim do curso. Recomeçando do início." : "A seguir: " + (info ? info.curto : ""));
+  guardar("enem-progresso", { parte: prox, tempo: 0, titulo: "" });
+  if (!(await tocarParte(prox, 0))) {
+    // sem internet ou falha passageira: tenta de novo uma vez
+    setTimeout(() => { if (audio().paused) tocarParte(prox, 0); }, 8000);
+  }
+}
+
 // ---------- reprodutor ----------
 const audio = () => $("audio");
 function capitulos() { const d = memoria[player.parte]; return d && d.audio ? d.audio.capitulos : []; }
@@ -194,10 +230,11 @@ async function tocarParte(id, cap, tempo) {
     const dados = await carregarParte(id);
     player.parte = id;
     player.cap = -1;
+    player.preparada = null;
     $("player").hidden = false;
     document.body.classList.add("com-player");
     $("player-parte").textContent = dados.conteudo.curto;
-    if (!dados.audio) { player.modo = "sintese"; falarCapitulo(cap || 0); return; }
+    if (!dados.audio) { player.modo = "sintese"; falarCapitulo(cap || 0); return true; }
     player.modo = "audio";
     const a = audio();
     const src = new URL(urlAudio(id), location.href).href;
@@ -215,9 +252,11 @@ async function tocarParte(id, cap, tempo) {
     a.playbackRate = player.velocidade;
     await a.play();
     aoMudarCapitulo(capituloEm(alvo));
+    return true;
   } catch (e) {
     $("player-titulo").textContent = "Não foi possível tocar: " + e.message;
     anunciar("Não foi possível tocar o áudio. " + e.message);
+    return false;
   }
 }
 
@@ -254,11 +293,17 @@ function irPara(i) {
   anunciar(tituloCap(i));
 }
 function anterior() {
-  if (player.modo === "sintese") { falarCapitulo(player.cap - 1); return; }
+  if (player.modo === "sintese") { if (player.cap > 0) falarCapitulo(player.cap - 1); else tocarParte(vizinha(player.parte, -1), 0); return; }
   const t = audio().currentTime, i = capituloEm(t);
+  if (i === 0 && t - capitulos()[0].inicio <= 3) { tocarParte(vizinha(player.parte, -1), 0); return; }
   irPara(t - capitulos()[i].inicio > 3 ? i : i - 1);
 }
-function proxima() { irPara(player.modo === "sintese" ? player.cap + 1 : capituloEm(audio().currentTime) + 1); }
+function proxima() {
+  const atual = player.modo === "sintese" ? player.cap : capituloEm(audio().currentTime);
+  const total = player.modo === "sintese" ? ((memoria[player.parte] || { conteudo: { capitulos: [] } }).conteudo.capitulos.length) : capitulos().length;
+  if (atual + 1 >= total) { avancarParte(); return; }
+  irPara(atual + 1);
+}
 function saltar(seg) { if (player.modo === "audio") { const a = audio(); a.currentTime = Math.max(0, Math.min(a.currentTime + seg, a.duration || 0)); } }
 function alternar() {
   if (player.modo === "sintese") {
@@ -288,7 +333,8 @@ function falarCapitulo(i) {
   const d = memoria[player.parte];
   if (!d || !("speechSynthesis" in window)) { $("player-titulo").textContent = "Leitura por voz indisponível neste aparelho"; return; }
   const caps = d.conteudo.capitulos;
-  if (i < 0 || i >= caps.length) { atualizarBotaoTocar(false); return; }
+  if (i >= caps.length) { avancarParte(); return; }
+  if (i < 0) { atualizarBotaoTocar(false); return; }
   pararSintese();
   aoMudarCapitulo(i);
   const pedacos = caps[i].fala.match(/[^.!?]+[.!?]*/g) || [caps[i].fala];
@@ -343,6 +389,10 @@ audio().addEventListener("timeupdate", () => {
   }
   aoMudarCapitulo(capituloEm(a.currentTime));
   salvarProgresso(false);
+  if (isFinite(a.duration) && a.duration - a.currentTime < 120 && player.preparada !== player.parte) {
+    player.preparada = player.parte; // baixa os dados da proxima parte antes do fim, para a troca ser imediata
+    carregarParte(vizinha(player.parte, 1)).catch(() => {});
+  }
   if ("mediaSession" in navigator && navigator.mediaSession.setPositionState && isFinite(a.duration)
       && Math.abs(a.currentTime - player.ultimaPosicao) > 5) {
     player.ultimaPosicao = a.currentTime;
@@ -351,7 +401,7 @@ audio().addEventListener("timeupdate", () => {
 });
 audio().addEventListener("play", () => { atualizarBotaoTocar(true); if ("mediaSession" in navigator) navigator.mediaSession.playbackState = "playing"; });
 audio().addEventListener("pause", () => { atualizarBotaoTocar(false); salvarProgresso(true); if ("mediaSession" in navigator) navigator.mediaSession.playbackState = "paused"; });
-audio().addEventListener("ended", () => { $("player-titulo").textContent = "Fim desta parte"; anunciar("Fim desta parte"); guardar("enem-progresso", null); });
+audio().addEventListener("ended", () => { if (player.modo === "audio") avancarParte(); });
 document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") salvarProgresso(true); else marcarTocando(); });
 
 if ("mediaSession" in navigator) {
