@@ -99,3 +99,9 @@ sprint-012: feat(curso) - (06/11/2026) módulos 13 e 14 de Linguagens.
   Parnasianismo, Simbolismo e Pré-Modernismo; Modernismo 1ª e 2ª fases; de Guimarães Rosa a Conceição Evaristo;
   como responder questões). Citações só de obras em domínio público (antes de 1929).
 FIM-sprint-012
+
+sprint-013: feat(curso) - (06/11/2026) módulo 15 "Artes, Educação Física, tecnologias e língua estrangeira": 8 aulas
+(vanguardas; arte contemporânea e popular; música, teatro e dança; corpo, saúde e sociedade; esporte e inclusão,
+com goalball e futebol de cegos; TICs, fake news e acessibilidade digital; inglês e falsos cognatos; espanhol e
+falsos amigos). MARCO: todos os módulos do 1º DIA prontos (Linguagens 11-15, Humanas 21-27, Redação 51).
+FIM-sprint-013
