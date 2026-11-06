@@ -37,3 +37,12 @@ abertura + 8 aulas (valor posicional, quatro operações e ordem das contas, neg
 potências e notação científica, raízes, unidades de medida), cada uma com exercício rápido e ligações
 com as questões resolvidas da prova de 2023.
 FIM-sprint-003
+
+sprint-003 (resultado): narração incremental validada no GitHub — só o módulo 41 foi narrado (13,8 min, 0 falhas);
+as outras 10 partes reaproveitaram o áudio publicado. Total: 4,4 h em 11 partes, 58,1 MB.
+Primeira narração completa (sprint-001): 4,0 h em 8,5 min, 9 partes, 0 falhas, 52,3 MB.
+
+sprint-004: feat(curso) - (06/11/2026) módulo 12 "Funções da linguagem, figuras de linguagem e coesão":
+abertura + 8 aulas (elementos da comunicação, as seis funções, figuras de comparação, de intensidade e
+oposição, de som e repetição, coesão por retomada, conectivos), ligadas às questões resolvidas de 2023 e 2024.
+FIM-sprint-004
