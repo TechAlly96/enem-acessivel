@@ -119,3 +119,10 @@ sprint-015: feat(curso) - (06/11/2026)
 - 34 "Química 1": 7 aulas (matéria e misturas; separação de misturas e tratamento de água; átomo e modelos;
   tabela periódica e eletronegatividade; ligações; polaridade, solubilidade e detergentes; propriedades e densidade).
 FIM-sprint-015
+
+sprint-016: feat(curso) - (06/11/2026) QUÍMICA COMPLETA (34-36).
+- 35 "Química 2": 8 aulas (reações e Lavoisier; mol e massa molar; estequiometria e limitante; soluções e
+  concentração; ácidos, bases e pH; velocidade das reações; equilíbrio e Le Chatelier; oxirredução e pilhas).
+- 36 "Química 3": 7 aulas (carbono e cadeias; nomenclatura; funções orgânicas; isomeria e carbono quiral;
+  petróleo, biocombustíveis e polímeros; química ambiental; remédios, alimentos e radioatividade, Goiânia 1987).
+FIM-sprint-016
