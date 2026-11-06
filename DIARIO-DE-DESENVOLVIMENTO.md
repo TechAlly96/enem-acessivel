@@ -77,3 +77,9 @@ sprint-009: feat(curso) - (06/11/2026) módulo 22 "História do Brasil: Repúbli
 e coronelismo; revoltas: Canudos, Contestado, Vacina, Chibata, tenentismo, Semana de 22; Era Vargas; 1946-1964;
 ditadura militar e AI-5; abertura e Diretas Já; Constituição de 1988 e Nova República; temas transversais).
 FIM-sprint-009
+
+sprint-010: feat(curso) - (06/11/2026) módulo 23 "História Geral": abertura + 9 aulas (Grécia e Roma; Idade Média;
+Renascimento, Reformas, Navegações, absolutismo e mercantilismo; conquista da América; Iluminismo e revoluções,
+incluindo o Haiti; Revolução Industrial e imperialismo; Primeira Guerra, Revolução Russa, 1929 e totalitarismos;
+Segunda Guerra, Holocausto e ONU; Guerra Fria, descolonização e apartheid), ligado às questões de 2023 e 2024.
+FIM-sprint-010
