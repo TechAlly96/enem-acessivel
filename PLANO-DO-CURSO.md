@@ -28,8 +28,8 @@ Padrão de cada módulo (`conteudo/NN_curso_*.md`):
 | 27 | Sociologia | pronto |
 | 31 | Física 1: movimento e forças | pronto |
 | 32 | Física 2: energia, calor, ondas e luz | pronto |
-| 33 | Física 3: eletricidade e magnetismo | a fazer |
-| 34 | Química 1: matéria, átomos, tabela periódica e ligações | a fazer |
+| 33 | Física 3: eletricidade e magnetismo | pronto |
+| 34 | Química 1: matéria, átomos, tabela periódica e ligações | pronto |
 | 35 | Química 2: reações, cálculos, soluções e pH | a fazer |
 | 36 | Química 3: química orgânica e meio ambiente | a fazer |
 | 37 | Biologia 1: célula e genética | a fazer |

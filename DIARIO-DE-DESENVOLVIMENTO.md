@@ -112,3 +112,10 @@ sprint-014: feat(curso) - (06/11/2026) início de Ciências da Natureza (2º dia
 - 32 "Física 2: energia, calor, ondas e luz": 8 aulas (formas e conservação da energia; potência, kWh e rendimento;
   temperatura e calor; calor sensível e latente, gases; ondas; som; luz, cores e lentes; espectro e radiação).
 FIM-sprint-014
+
+sprint-015: feat(curso) - (06/11/2026)
+- 33 "Física 3: eletricidade e magnetismo": 7 aulas (carga; corrente, tensão e resistência; potência e kWh;
+  série e paralelo, disjuntor, terra e DR; magnetismo e eletroímã; indução e usinas; segurança e uso consciente).
+- 34 "Química 1": 7 aulas (matéria e misturas; separação de misturas e tratamento de água; átomo e modelos;
+  tabela periódica e eletronegatividade; ligações; polaridade, solubilidade e detergentes; propriedades e densidade).
+FIM-sprint-015
