@@ -66,3 +66,9 @@ e nota zero; as cinco competências; ler o tema sem tangenciar, com os temas de 
 os 5 elementos; repertórios por assunto; revisão e erros comuns). Menção ao atendimento especializado do Inep.
 - montar_dados.py: módulos 5x (Redação) também entram no grupo "curso".
 FIM-sprint-007
+
+sprint-008: feat(curso) - (06/11/2026) módulo 21 "História do Brasil: Colônia e Império": abertura + 8 aulas
+(povos originários e chegada portuguesa; capitanias, Governo-Geral, açúcar e plantation; escravidão, quilombos e
+Palmares; ouro e Minas; Inconfidência e Conjuração Baiana; família real e Independência; Primeiro Reinado, regências
+e Segundo Reinado; abolição e Proclamação da República), ligado às questões de 2023 e 2024.
+FIM-sprint-008
