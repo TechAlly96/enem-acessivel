@@ -1,0 +1,8 @@
+dados/
+_site/
+vozes/
+audio-cache/
+logs/
+__pycache__/
+*.wav
+*.ogg

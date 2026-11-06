@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a1a3a">
+<meta name="description" content="Estudo para o Enem em áudio, acessível a pessoas com deficiência visual. Gratuito e de código aberto.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; media-src 'self' blob:; base-uri 'none'; form-action 'none'">
+<title>Enem Acessível</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icone-192.png">
+<link rel="apple-touch-icon" href="icone-192.png">
+<link rel="stylesheet" href="estilo.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="topo">
+  <button type="button" id="voltar" class="voltar" hidden aria-label="Voltar para o início">‹ Início</button>
+  <h1 id="titulo-tela">Enem Acessível</h1>
+</header>
+<main id="conteudo" tabindex="-1">
+  <p id="carregando" class="aviso">Carregando...</p>
+</main>
+<p id="anuncio" class="so-leitor" aria-live="polite"></p>
+<section id="player" class="player" hidden aria-label="Reprodutor de áudio">
+  <p class="player-info"><span id="player-parte"></span><strong id="player-titulo">-</strong></p>
+  <input type="range" id="player-barra" min="0" max="1000" value="0" step="1" aria-label="Posição do áudio">
+  <p class="player-tempo"><span id="player-agora">0:00</span><span id="player-total">0:00</span></p>
+  <div class="player-botoes">
+    <button type="button" id="p-anterior" aria-label="Questão anterior">⏮</button>
+    <button type="button" id="p-voltar15" aria-label="Voltar 15 segundos">↺15</button>
+    <button type="button" id="p-tocar" class="principal" aria-label="Pausar">⏸</button>
+    <button type="button" id="p-avancar15" aria-label="Avançar 15 segundos">15↻</button>
+    <button type="button" id="p-proxima" aria-label="Próxima questão">⏭</button>
+  </div>
+  <div class="player-extra">
+    <button type="button" id="p-velocidade" aria-label="Velocidade: 1 vez">Velocidade 1×</button>
+    <button type="button" id="p-fechar" aria-label="Fechar o reprodutor">Fechar</button>
+  </div>
+</section>
+<audio id="audio" preload="none"></audio>
+</body>
+</html>
