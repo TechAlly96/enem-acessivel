@@ -136,3 +136,11 @@ sprint-017: feat(curso) - (06/11/2026) BIOLOGIA COMPLETA (37-39) => CIÊNCIAS DA
   reprodução; imunidade e vacinas; doenças e prevenção; grupos de seres vivos; fisiologia de plantas e animais).
 - Corrigido itálico com asterisco simples (não suportado pelo gerador) em 39.
 FIM-sprint-017
+
+sprint-018: feat(curso) - (06/11/2026)
+- 42 "Matemática 2: razão, proporção, porcentagem e juros": 8 aulas (razão; proporção direta e inversa; regra de
+  três; porcentagem e atalhos; aumentos e descontos com fator, armadilha dos percentuais seguidos; juros simples;
+  juros compostos; problemas do dia a dia e comparação de planos).
+- 43 "Matemática 3: equações e funções": 8 aulas (equação como balança; montar equações; sistemas; função;
+  primeiro grau; segundo grau e vértice; exponencial; logaritmo e leitura de gráficos).
+FIM-sprint-018

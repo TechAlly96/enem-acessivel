@@ -36,8 +36,8 @@ Padrão de cada módulo (`conteudo/NN_curso_*.md`):
 | 38 | Biologia 2: ecologia e evolução | pronto |
 | 39 | Biologia 3: corpo humano, saúde e seres vivos | pronto |
 | 41 | Matemática 1: números, operações, frações e potências | pronto |
-| 42 | Matemática 2: razão, proporção, porcentagem e juros | a fazer |
-| 43 | Matemática 3: equações e funções | a fazer |
+| 42 | Matemática 2: razão, proporção, porcentagem e juros | pronto |
+| 43 | Matemática 3: equações e funções | pronto |
 | 44 | Matemática 4: geometria plana | a fazer |
 | 45 | Matemática 5: geometria espacial | a fazer |
 | 46 | Matemática 6: estatística e probabilidade | a fazer |
