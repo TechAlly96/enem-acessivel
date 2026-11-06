@@ -24,3 +24,10 @@ sprint-001: feat(base) - (06/11/2026) base do projeto, reaproveitando o desenho 
   cache de áudio salvo mesmo se a narração parar no meio, publicação com 2 tentativas — lições do GIN 047 e 051).
 PENDENTE: primeira narração real no GitHub; ativar Pages em modo workflow; testar com TalkBack e tela apagada.
 FIM-sprint-001
+
+sprint-002: feat(curso) - (06/11/2026) início do CURSO COMPLETO, do zero, cobrindo todas as matérias do Enem.
+- PLANO-DO-CURSO.md: 29 módulos baseados na Matriz de Referência do Enem (Inep), padrão de aula e numeração.
+- Módulo 11 "Ler e entender qualquer texto": abertura + 7 aulas com exercício rápido e treino final.
+- montar_dados.py: arquivos 1x-4x viram grupo "curso" (título curto tirado do "# Curso, módulo N."), contagem de aulas.
+- app.js: grupo "Curso completo: aprenda do zero" na tela inicial, mostrando o número de aulas.
+FIM-sprint-002

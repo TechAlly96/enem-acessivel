@@ -5,7 +5,7 @@ const DADOS = "../dados/";
 const CACHE_AUDIO = "enem-audio-v1";
 const CACHE_DADOS = "enem-dados-v1";
 const VELOCIDADES = [0.75, 1, 1.25, 1.5, 1.75];
-const GRUPOS = [["geral", "Comece por aqui"], ["dia1", "Primeiro dia: Linguagens, Humanas e Redação"], ["dia2", "Segundo dia: Natureza e Matemática"]];
+const GRUPOS = [["geral", "Comece por aqui"], ["curso", "Curso completo: aprenda do zero"], ["dia1", "Primeiro dia: Linguagens, Humanas e Redação"], ["dia2", "Segundo dia: Natureza e Matemática"]];
 const $ = (id) => document.getElementById(id);
 
 let partes = [];
@@ -80,7 +80,7 @@ function telaInicio() {
     for (const p of lista) {
       const b = el("button", "botao");
       b.type = "button";
-      const detalhes = [p.questoes ? p.questoes + " questões" : p.capitulos + " tópicos"];
+      const detalhes = [p.aulas ? p.aulas + " aulas" : p.questoes ? p.questoes + " questões resolvidas" : p.capitulos + " tópicos"];
       if (p.duracao) detalhes.push(minutos(p.duracao) + " de áudio");
       b.append(el("strong", null, p.curto), el("span", null, detalhes.join(" · ")));
       b.addEventListener("click", () => { location.hash = "#/parte/" + p.id; });

@@ -110,17 +110,23 @@ def main(saida):
     partes = []
     for arquivo in sorted(CONTEUDO.glob("*.md")):
         pid = arquivo.stem
-        dia, curto = INFO.get(pid, ("geral", pid))
         titulo, caps = ler_parte(arquivo)
-        questoes = sum(1 for c in caps if c["resposta"])
+        if pid in INFO:
+            dia, curto = INFO[pid]
+        elif pid[:1] in "1234":  # modulos do curso completo: 1x Linguagens, 2x Humanas, 3x Natureza, 4x Matematica
+            dia, curto = "curso", re.sub(r"^Curso, m[óo]dulo \d+\.\s*", "", titulo)
+        else:
+            dia, curto = "geral", titulo
+        questoes = sum(1 for c in caps if c["resposta"]) if dia != "curso" else 0
+        aulas = sum(1 for c in caps if c["titulo"].startswith("Aula "))
         pasta = saida / pid
         pasta.mkdir(exist_ok=True)
         (pasta / "conteudo.json").write_text(json.dumps(
             {"id": pid, "titulo": titulo, "curto": curto, "dia": dia, "capitulos": caps},
             ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         partes.append({"id": pid, "titulo": titulo, "curto": curto, "dia": dia,
-                       "capitulos": len(caps), "questoes": questoes})
-        print(f"{pid}: {len(caps)} capitulos, {questoes} questoes")
+                       "capitulos": len(caps), "questoes": questoes, "aulas": aulas})
+        print(f"{pid}: {len(caps)} capitulos, {questoes} questoes, {aulas} aulas")
     (saida / "partes.json").write_text(json.dumps(partes, ensure_ascii=False, separators=(",", ":")),
                                        encoding="utf-8")
     print(f"Total: {len(partes)} partes, {sum(p['questoes'] for p in partes)} questoes")
