@@ -31,3 +31,9 @@ sprint-002: feat(curso) - (06/11/2026) início do CURSO COMPLETO, do zero, cobri
 - montar_dados.py: arquivos 1x-4x viram grupo "curso" (título curto tirado do "# Curso, módulo N."), contagem de aulas.
 - app.js: grupo "Curso completo: aprenda do zero" na tela inicial, mostrando o número de aulas.
 FIM-sprint-002
+
+sprint-003: feat(curso) - (06/11/2026) módulo 41 "Matemática 1: números, operações, frações e potências":
+abertura + 8 aulas (valor posicional, quatro operações e ordem das contas, negativos, frações, decimais,
+potências e notação científica, raízes, unidades de medida), cada uma com exercício rápido e ligações
+com as questões resolvidas da prova de 2023.
+FIM-sprint-003
