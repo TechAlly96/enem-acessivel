@@ -126,3 +126,13 @@ sprint-016: feat(curso) - (06/11/2026) QUÍMICA COMPLETA (34-36).
 - 36 "Química 3": 7 aulas (carbono e cadeias; nomenclatura; funções orgânicas; isomeria e carbono quiral;
   petróleo, biocombustíveis e polímeros; química ambiental; remédios, alimentos e radioatividade, Goiânia 1987).
 FIM-sprint-016
+
+sprint-017: feat(curso) - (06/11/2026) BIOLOGIA COMPLETA (37-39) => CIÊNCIAS DA NATUREZA COMPLETAS (31-39).
+- 37 "Célula e genética": 7 aulas (célula; organelas; mitose e meiose; DNA, RNA e proteínas; Mendel; ABO,
+  herança ligada ao sexo e síndrome de Down; biotecnologia).
+- 38 "Ecologia e evolução": 7 aulas (conceitos; cadeias e energia; ciclos; relações; problemas e conservação;
+  Lamarck e Darwin; evidências e história da vida).
+- 39 "Corpo humano, saúde e seres vivos": 8 aulas (digestão; respiração e circulação; nervoso e hormônios;
+  reprodução; imunidade e vacinas; doenças e prevenção; grupos de seres vivos; fisiologia de plantas e animais).
+- Corrigido itálico com asterisco simples (não suportado pelo gerador) em 39.
+FIM-sprint-017

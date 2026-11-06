@@ -32,9 +32,9 @@ Padrão de cada módulo (`conteudo/NN_curso_*.md`):
 | 34 | Química 1: matéria, átomos, tabela periódica e ligações | pronto |
 | 35 | Química 2: reações, cálculos, soluções e pH | pronto |
 | 36 | Química 3: química orgânica e meio ambiente | pronto |
-| 37 | Biologia 1: célula e genética | a fazer |
-| 38 | Biologia 2: ecologia e evolução | a fazer |
-| 39 | Biologia 3: corpo humano, saúde e seres vivos | a fazer |
+| 37 | Biologia 1: célula e genética | pronto |
+| 38 | Biologia 2: ecologia e evolução | pronto |
+| 39 | Biologia 3: corpo humano, saúde e seres vivos | pronto |
 | 41 | Matemática 1: números, operações, frações e potências | pronto |
 | 42 | Matemática 2: razão, proporção, porcentagem e juros | a fazer |
 | 43 | Matemática 3: equações e funções | a fazer |
