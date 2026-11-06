@@ -22,8 +22,8 @@ Padrão de cada módulo (`conteudo/NN_curso_*.md`):
 | 21 | História do Brasil: Colônia e Império | pronto |
 | 22 | História do Brasil: República | pronto |
 | 23 | História Geral: da Antiguidade à Guerra Fria | pronto |
-| 24 | Geografia física: cartografia, relevo, clima, biomas e água | a fazer |
-| 25 | Geografia humana: população, cidades, campo, indústria e globalização | a fazer |
+| 24 | Geografia física: cartografia, relevo, clima, biomas e água | pronto |
+| 25 | Geografia humana: população, cidades, campo, indústria e globalização | pronto |
 | 26 | Filosofia | pronto |
 | 27 | Sociologia | pronto |
 | 31 | Física 1: movimento e forças | a fazer |

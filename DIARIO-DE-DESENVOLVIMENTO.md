@@ -83,3 +83,10 @@ Renascimento, Reformas, Navegações, absolutismo e mercantilismo; conquista da 
 incluindo o Haiti; Revolução Industrial e imperialismo; Primeira Guerra, Revolução Russa, 1929 e totalitarismos;
 Segunda Guerra, Holocausto e ONU; Guerra Fria, descolonização e apartheid), ligado às questões de 2023 e 2024.
 FIM-sprint-010
+
+sprint-011: feat(curso) - (06/11/2026) módulos 24 e 25 de Geografia — CIÊNCIAS HUMANAS COMPLETAS (21 a 27).
+- 24 "Geografia física": 8 aulas (mapas, escala e coordenadas; fusos e projeções; placas e rochas; relevo e solos;
+  clima; seis biomas; hidrografia e aquíferos; problemas ambientais globais e acordos).
+- 25 "Geografia humana": 8 aulas (população e transição demográfica, Censo 2022; migrações; urbanização;
+  espaço agrário; indústria e energia; transportes e redes; globalização e blocos; geopolítica e conflitos).
+FIM-sprint-011
