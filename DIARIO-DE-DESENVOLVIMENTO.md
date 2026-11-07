@@ -192,3 +192,10 @@ sprint-023: feat(provas) - (07/11/2026) Natureza 2024 (2º dia, Caderno 7 Azul) 
 - Respostas conferidas por script contra o gabarito oficial 2024_GB_impresso_D2_CD7: 0 erros.
 - montar_dados: INFO com 61 a 64 (Natureza e Matemática 2024 no dia 2; Linguagens e Humanas 2025 no dia 1).
 FIM-sprint-023
+
+sprint-024: feat(provas) - (07/11/2026) Matemática 2024 (2º dia, Caderno 7 Azul) resolvida no estilo professora.
+- 62_matematica_2024: 45 questões, cada uma com história e figuras descritas, teoria do zero, passo a passo,
+  "por que as outras estão erradas" (incluindo de onde vem cada valor-pegadinha) e dica. ~13 mil palavras.
+- Conferência por script das 90 questões do 2º dia de 2024 contra o gabarito oficial: 0 erros.
+- Total do app: 40 partes, 370 questões resolvidas.
+FIM-sprint-024
