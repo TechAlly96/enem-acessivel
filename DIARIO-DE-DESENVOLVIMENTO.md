@@ -205,3 +205,9 @@ sprint-025: feat(provas) - (07/11/2026) Linguagens 2025 (1º dia, Caderno 1 Azul
   e o tema da redação 2025 (envelhecimento). Respostas conferidas com o gabarito oficial: 0 erros em 50.
 - Total do app: 41 partes, 420 questões.
 FIM-sprint-025
+
+sprint-026: feat(provas) - (07/11/2026) Humanas 2025 (1º dia, Caderno 1 Azul) resolvida no estilo professora.
+- 64_humanas_2025: 45 questões (História, Geografia, Filosofia, Sociologia), conferidas por script lendo o
+  gabarito oficial direto do PDF: 0 erros. Total do app: 42 partes, 465 questões resolvidas.
+- Pendente: 2025 2º dia (falta o caderno 2025_PV_impresso_D2_CD7 e o gabarito D2) e reescrita dos módulos do curso.
+FIM-sprint-026
