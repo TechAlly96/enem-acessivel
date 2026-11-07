@@ -183,3 +183,12 @@ sprint-022: feat(app) - (06/11/2026) MODO GUIADO: o curso toca sozinho, como um 
 - Teste no Chromium com áudios de 2 s: 46 trocas seguidas, as 38 partes na ordem, volta ao início e retomada OK.
 - sw.js: enem-app-v3.
 FIM-sprint-022
+
+sprint-023: feat(provas) - (07/11/2026) Natureza 2024 (2º dia, Caderno 7 Azul) resolvida no estilo professora.
+- Pedido do usuário: o conteúdo estava resumido demais; quer explicação de professora e as provas 2023-2025.
+- 61_natureza_2024: 45 questões (44 + anulada 129, com a explicação de por que foi anulada: eficiência > 100%).
+  Cada questão: história com figuras descritas, teoria do zero, passo a passo, "por que as outras estão erradas"
+  e dica. ~14 mil palavras (o dobro da profundidade das partes de 2023).
+- Respostas conferidas por script contra o gabarito oficial 2024_GB_impresso_D2_CD7: 0 erros.
+- montar_dados: INFO com 61 a 64 (Natureza e Matemática 2024 no dia 2; Linguagens e Humanas 2025 no dia 1).
+FIM-sprint-023

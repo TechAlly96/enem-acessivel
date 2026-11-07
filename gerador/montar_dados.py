@@ -27,6 +27,10 @@ INFO = {
     "06_humanas_2024": ("dia1", "Humanas 2024"),
     "07_estrategia_redacao": ("geral", "Estratégia e redação"),
     "08_vespera": ("geral", "Resumo de véspera"),
+    "61_natureza_2024": ("dia2", "Natureza 2024"),
+    "62_matematica_2024": ("dia2", "Matemática 2024"),
+    "63_linguagens_2025": ("dia1", "Linguagens 2025"),
+    "64_humanas_2025": ("dia1", "Humanas 2025"),
 }
 
 
