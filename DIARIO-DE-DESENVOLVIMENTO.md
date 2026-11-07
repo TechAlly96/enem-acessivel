@@ -199,3 +199,9 @@ sprint-024: feat(provas) - (07/11/2026) Matemática 2024 (2º dia, Caderno 7 Azu
 - Conferência por script das 90 questões do 2º dia de 2024 contra o gabarito oficial: 0 erros.
 - Total do app: 40 partes, 370 questões resolvidas.
 FIM-sprint-024
+
+sprint-025: feat(provas) - (07/11/2026) Linguagens 2025 (1º dia, Caderno 1 Azul) resolvida no estilo professora.
+- 63_linguagens_2025: inglês 1-5, espanhol 1-5 e questões 6 a 45, com resumo do texto-base das questões 6-10
+  e o tema da redação 2025 (envelhecimento). Respostas conferidas com o gabarito oficial: 0 erros em 50.
+- Total do app: 41 partes, 420 questões.
+FIM-sprint-025
